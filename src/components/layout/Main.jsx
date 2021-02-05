@@ -13,13 +13,13 @@ function Main() {
     }, []) 
 
     return (
-       <Box px="40px" w="100%" minH="100vh">
+       <Box px={["5px","20px","30px","40px"]} w={["100%","50%","100%","100%"]} minH="100vh">
            <Box w="100%" display="flex" my="20px">
                 <Text  mr="10px" fontWeight="500">SORT BY:</Text>
                 <Filter />
                 </Box>
                 {products ? products.map((product)=> { return (
-                    < Box w="100%" display="flex">
+                    < Box w={["100%","50%","100%","100%"]} display="flex">
                      <Image
                       borderRadius="10px"
                       boxSize="200px"

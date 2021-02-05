@@ -6,16 +6,16 @@ import {ReactComponent as PinterestIcon} from '../../assets/icons/pinterest icon
 
 function Footer() {
     return (
-        <Flex W="100%" h="100px" px="100px" py="20px" justifyContent="space-between">
+        <Flex W={["100%","50%","25%","15%"]} h="100px" px="100px" py="20px" justifyContent="space-between">
             <Box>
-            <Text fontSize="1.4rem" fontWeight="700">NEWS</Text>
-            <Text fontSize="1.4rem" fontWeight="700">CATALOGUE</Text>
-            <Text fontSize="1.4rem" fontWeight="700">CONTACTS</Text>
+            <Text fontSize={['1rem','1rem','1rem','1.4rem']} fontWeight="700">NEWS</Text>
+            <Text fontSize={['1rem','1rem','1rem','1.4rem']} fontWeight="700">CATALOGUE</Text>
+            <Text fontSize={['1rem','1rem','1rem','1.4rem']} fontWeight="700">CONTACTS</Text>
             </Box>
             <Box>
-            <Text fontSize="1.4rem" fontWeight="700">ABOUT US</Text>
-            <Text fontSize="1.4rem" fontWeight="700">DELIVERY</Text>
-            <Text fontSize="1.4rem" fontWeight="700">FAQ</Text>
+            <Text fontSize={['1rem','1rem','1rem','1.4rem']} fontWeight="700">FAQ</Text>
+            <Text fontSize={['1rem','1rem','1rem','1.4rem']} fontWeight="700">DELIVERY</Text>
+            <Text fontSize={['1rem','1rem','1rem','1.4rem']} fontWeight="700">ABOUT US</Text>
             </Box>
             <Box>
             <Heading>JUDE STORE</Heading>
